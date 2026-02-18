@@ -6,7 +6,7 @@ addon.link    = 'https://ashitaxi.com/';
 
 require('common');
 local json = require('json');
-local slips = loadfile(('%s\\addons\\find\\slips.lua'):fmt(AshitaCore:GetInstallPath()))();
+local slips = require('slips');
 
 local inventory = AshitaCore:GetMemoryManager():GetInventory();
 local resources = AshitaCore:GetResourceManager();

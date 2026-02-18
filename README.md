@@ -4,12 +4,13 @@ An [Ashita v4](https://ashitaxi.com/) addon for Final Fantasy XI that scans all 
 
 ## Installation
 
-Copy the `psxi.lua` file into your Ashita `addons/psxi/` directory:
+Copy the addon files into your Ashita `addons/psxi/` directory:
 
 ```
 addons/
   psxi/
     psxi.lua
+    slips.lua
 ```
 
 ## Usage
@@ -50,4 +51,3 @@ Inventory, Safe, Safe 2, Storage, Temporary, Locker, Satchel, Sack, Case, Wardro
 ## Requirements
 
 - Ashita v4
-- The `find` addon must be installed (ships with Ashita by default) as `psxi` loads its storage slip data.
